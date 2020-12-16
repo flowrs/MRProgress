@@ -2,11 +2,11 @@ Pod::Spec.new do |s|
   s.name                  = 'MRProgress'
   s.version               = '0.8.3'
   s.summary               = 'Collection of iOS drop-in components to visualize progress by a HUD with different modes'
-  s.homepage              = 'https://github.com/mrackwitz/MRProgress'
+  s.homepage              = 'https://github.com/flowrs/MRProgress'
   s.social_media_url      = 'https://twitter.com/mrackwitz'
   s.author                = { 'Marius Rackwitz' => 'git@mariusrackwitz.de' }
   s.license               = 'MIT License'
-  s.source                = { :git => 'https://github.com/mrackwitz/MRProgress.git', :tag => s.version.to_s }
+  s.source                = { :git => 'https://github.com/flowrs/MRProgress.git', :tag => s.version.to_s }
   s.source_files          = 'src/MRProgress.h'
   s.platform              = :ios, '7.0'
   s.requires_arc          = true

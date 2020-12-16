@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
   s.subspec 'AFNetworking' do |subs|
     subs.subspec 'Base' do |subs|
       subs.dependency 'MRProgress/MethodCopier'
-      subs.dependency 'AFNetworking', '~> 3.0.4'
+      subs.dependency 'AFNetworking', '~> 4.0.1'
       subs.dependency 'AFNetworking/UIKit'
     end
 
